@@ -34,7 +34,7 @@ function form() {
         }
 
         indicador.textContent = indicadorUsuario;
-        idUsuario.textContent = Math.round(imc);
+        idUsuario.textContent = imc.toFixed(2);
     }
 
     form.addEventListener('submit', receberEventoForm);

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>IMCalculator</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="left-container">
+      <h1>IMCalculator</h1>
+
+      <form action="" class="form-imc">
+
+        <label for="altura">Altura</label>
+        <input type="text" id="altura" placeholder="m">
+
+        <label for="peso">Peso</label>
+        <input type="number" id="peso" placeholder="kg">
+
+        <button onclick="trocar()">Calcular</button>
+
+      </form>
+    </div>
+    <div class="right-container">
+      <img src="/assets/fitness.svg" alt="img-fitness">
+      <div class="resultado">
+        <h1 id="indicador">Peso Normal</h1>
+        <p id="imc-usuario-p">Seu índice de IMC é de:</p>
+        <h3 id="imc-usuario-h3">22kg</h3>
+    </div>
+    </div>
+  </div>
+
+  <script src="/js/main.js"></script>
+  <script src="/js/trocar.js"></script>
+
+</body>
+</html>

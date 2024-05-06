@@ -150,4 +150,8 @@
   .right-container {
     background: transparent;
   }
+
+  .left-container {
+    gap: 5rem;
+  }
 }

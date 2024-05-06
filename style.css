@@ -154,4 +154,13 @@
   .left-container {
     gap: 5rem;
   }
+  
+  .right-container h1 {
+    font-size: 40px;
+    color: #7F00FF;
+  }
+
+  .right-container {
+    color: #7F00FF;
+  }
 }

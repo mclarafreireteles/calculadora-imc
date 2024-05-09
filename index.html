@@ -15,10 +15,10 @@
       <form action="" class="form-imc">
 
         <label for="altura">Altura</label>
-        <input type="text" id="altura" placeholder="m">
+        <input type="text" id="altura" placeholder="m" name="altura" maxlength="4" required>
 
         <label for="peso">Peso</label>
-        <input type="number" id="peso" placeholder="kg">
+        <input type="text" id="peso" name="peso" placeholder="kg" maxlength="6" required>
 
         <button onclick="trocar()">Calcular</button>
 
@@ -36,6 +36,8 @@
 
   <script src="/js/main.js"></script>
   <script src="/js/trocar.js"></script>
+  <script src="/js/formatacao.js"></script>
+
 
 </body>
 </html>
